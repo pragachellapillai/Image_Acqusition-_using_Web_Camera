@@ -1,39 +1,25 @@
 # Image_Acqusition-_using_Web_Camera
-## Aim
- 
-Aim:
- 
-To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
-i) Write the frame as JPG 
-ii) Display the video 
-iii) Display the video by resizing the window
-iv) Rotate and display the video
+### Aim
+To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations. i) Write the frame as JPG ii) Display the video iii) Display the video by resizing the window iv) Rotate and display the video
 
-## Software Used
+### Software Used
 Anaconda - Python 3.7
 ## Algorithm
 ### Step 1:
-<br>
-
+Use cv2.VideoCapture(0) to access web camera
 ### Step 2:
-<br>
-
+Use cv2.imread to read the video or image
 ### Step 3:
-<br>
-
+Use cv2.imwrite to save the image
 ### Step 4:
-<br>
-
+Use cv2.imshow to show the video
 ### Step 5:
-<br>
+End the program and close the output video window by pressing 'q'
 
 ## Program:
-``` Python
-### Developed By:N.C .PRAGAHARSHITHA
+### Developed By:N C .PRAGAHARSHITHA
 ### Register No:212222110033
-
 ## i) Write the frame as JPG file
-
 ```
 import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
@@ -44,8 +30,7 @@ while(True):
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
-
-## ii) Display the video
+### ii) Display the video
 ```
 import numpy as np
 import cv2
@@ -58,8 +43,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
-## iii) Display the video by resizing the window
+### iii) Display the video by resizing the window
 ```
 import numpy as np
 import cv2
@@ -80,10 +64,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
-## iv) Rotate and display the video
-
-
+### iv) Rotate and display the video
 ```
 import numpy as np
 import cv2
@@ -104,34 +85,14 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
-
-
-
 ## Output
-
 ### i) Write the frame as JPG image
-
-![real image](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/76aa9891-db73-4097-9d0d-c9c84dd5ecda)
-
-
+![real image](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/09e53093-1c87-4292-92e2-32ee58163034)
 ### ii) Display the video
-
-
-![bfebe7](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/f10fd73c-7215-4729-af61-6eac75007eef)
-
+![bfebe7](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/96e7290d-fa9d-403c-950d-f978f51bd549)
 ### iii) Display the video by resizing the window
-
-
-![WhatsApp Image 2024-03-07 at 08 40 05_66684ea7](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/6bd3685e-c045-4ccc-b7ab-2e60c98599f6)
-
+![WhatsApp Image 2024-03-07 at 08 40 05_66684ea7](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/7cdcd313-f350-4223-86ef-7dfd2da9507e)
 ### iv) Rotate and display the video
-
-
-![1234](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/be1c67d5-2aeb-458c-9d1a-6bc5f9e88d76)
-
-
-
-
+![1234](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/a93c70f6-7e9b-464c-a0b9-a86216c321f5)
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
