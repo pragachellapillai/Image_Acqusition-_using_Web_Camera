@@ -87,12 +87,12 @@ cv2.destroyAllWindows()
 ```
 ## Output
 ### i) Write the frame as JPG image
-![real image](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/09e53093-1c87-4292-92e2-32ee58163034)
+![WhatsApp Image 2024-03-07 at 09 09 58_8f89d6e6](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/62ecbcb4-de26-4088-b0f3-143ea1ab3e14)
 ### ii) Display the video
-![bfebe7](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/96e7290d-fa9d-403c-950d-f978f51bd549)
+![WhatsApp Image 2024-03-07 at 09 02 45_54d8979d](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/5b69917d-7629-4320-a179-386036cef30b)
 ### iii) Display the video by resizing the window
-![WhatsApp Image 2024-03-07 at 08 40 05_66684ea7](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/7cdcd313-f350-4223-86ef-7dfd2da9507e)
+![WhatsApp Image 2024-03-07 at 09 07 30_124b46ac](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/fcf504ad-0a39-4963-bb9e-0507a2861a54)
 ### iv) Rotate and display the video
-![1234](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/a93c70f6-7e9b-464c-a0b9-a86216c321f5)
+![WhatsApp Image 2024-03-07 at 09 07 30_e641769f](https://github.com/pragachellapillai/Image_Acqusition-_using_Web_Camera/assets/148254952/55bdebf9-ceb0-47d8-98bd-ea3c567da5c4)
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
