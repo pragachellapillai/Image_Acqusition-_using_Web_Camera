@@ -25,7 +25,7 @@ import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
     ret,frame=viedoCaptureObject.read()
-    cv2.imwrite("anbu.jpg",frame)
+    cv2.imwrite("praga.jpg",frame)
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
@@ -37,7 +37,7 @@ import cv2
 cap=cv2.VideoCapture(0)
 while True:
     ret,frame=cap.read()
-    cv2.imshow('lion',frame)
+    cv2.imshow('cat',frame)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -58,7 +58,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=smaller_frame
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222240009_anbu',image)
+    cv2.imshow('212222110033_praga',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -79,7 +79,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=cv2.rotate(smaller_frame,cv2.ROTATE_180)
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222240009_anbu',image)
+    cv2.imshow('212222110033_praga',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
